@@ -1,0 +1,43 @@
+c:\users\rafael\documents\visual studio 2015\Projects\Fogo Sprite Editor\Fogo Sprite Editor\bin\Debug\Fogo Sprite Editor.exe.config
+C:\Users\Rafael\documents\visual studio 2015\Projects\Fogo Sprite Editor\Fogo Sprite Editor\bin\Debug\Fogo Sprite Editor.exe
+C:\Users\Rafael\documents\visual studio 2015\Projects\Fogo Sprite Editor\Fogo Sprite Editor\bin\Debug\Fogo Sprite Editor.pdb
+C:\Users\Rafael\documents\visual studio 2015\Projects\Fogo Sprite Editor\Fogo Sprite Editor\bin\Debug\Caliburn.Micro.dll
+C:\Users\Rafael\documents\visual studio 2015\Projects\Fogo Sprite Editor\Fogo Sprite Editor\bin\Debug\Caliburn.Micro.Platform.dll
+C:\Users\Rafael\documents\visual studio 2015\Projects\Fogo Sprite Editor\Fogo Sprite Editor\bin\Debug\Gemini.dll
+C:\Users\Rafael\documents\visual studio 2015\Projects\Fogo Sprite Editor\Fogo Sprite Editor\bin\Debug\MahApps.Metro.dll
+C:\Users\Rafael\documents\visual studio 2015\Projects\Fogo Sprite Editor\Fogo Sprite Editor\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\Rafael\documents\visual studio 2015\Projects\Fogo Sprite Editor\Fogo Sprite Editor\bin\Debug\Xceed.Wpf.AvalonDock.dll
+C:\Users\Rafael\documents\visual studio 2015\Projects\Fogo Sprite Editor\Fogo Sprite Editor\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Aero.dll
+C:\Users\Rafael\documents\visual studio 2015\Projects\Fogo Sprite Editor\Fogo Sprite Editor\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Metro.dll
+C:\Users\Rafael\documents\visual studio 2015\Projects\Fogo Sprite Editor\Fogo Sprite Editor\bin\Debug\Xceed.Wpf.AvalonDock.Themes.VS2010.dll
+C:\Users\Rafael\documents\visual studio 2015\Projects\Fogo Sprite Editor\Fogo Sprite Editor\bin\Debug\Xceed.Wpf.AvalonDock.Themes.VS2013.dll
+C:\Users\Rafael\documents\visual studio 2015\Projects\Fogo Sprite Editor\Fogo Sprite Editor\bin\Debug\Xceed.Wpf.DataGrid.dll
+C:\Users\Rafael\documents\visual studio 2015\Projects\Fogo Sprite Editor\Fogo Sprite Editor\bin\Debug\Xceed.Wpf.Toolkit.dll
+C:\Users\Rafael\documents\visual studio 2015\Projects\Fogo Sprite Editor\Fogo Sprite Editor\bin\Debug\Caliburn.Micro.xml
+C:\Users\Rafael\documents\visual studio 2015\Projects\Fogo Sprite Editor\Fogo Sprite Editor\bin\Debug\Caliburn.Micro.Platform.xml
+C:\Users\Rafael\documents\visual studio 2015\Projects\Fogo Sprite Editor\Fogo Sprite Editor\bin\Debug\MahApps.Metro.xml
+C:\Users\Rafael\documents\visual studio 2015\Projects\Fogo Sprite Editor\Fogo Sprite Editor\bin\Debug\de\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Rafael\documents\visual studio 2015\Projects\Fogo Sprite Editor\Fogo Sprite Editor\bin\Debug\es\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Rafael\documents\visual studio 2015\Projects\Fogo Sprite Editor\Fogo Sprite Editor\bin\Debug\fr\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Rafael\documents\visual studio 2015\Projects\Fogo Sprite Editor\Fogo Sprite Editor\bin\Debug\hu\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Rafael\documents\visual studio 2015\Projects\Fogo Sprite Editor\Fogo Sprite Editor\bin\Debug\it\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Rafael\documents\visual studio 2015\Projects\Fogo Sprite Editor\Fogo Sprite Editor\bin\Debug\pt-BR\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Rafael\documents\visual studio 2015\Projects\Fogo Sprite Editor\Fogo Sprite Editor\bin\Debug\ro\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Rafael\documents\visual studio 2015\Projects\Fogo Sprite Editor\Fogo Sprite Editor\bin\Debug\ru\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Rafael\documents\visual studio 2015\Projects\Fogo Sprite Editor\Fogo Sprite Editor\bin\Debug\sv\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Rafael\documents\visual studio 2015\Projects\Fogo Sprite Editor\Fogo Sprite Editor\bin\Debug\zh-Hans\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Rafael\documents\visual studio 2015\Projects\Fogo Sprite Editor\Fogo Sprite Editor\obj\Debug\Fogo Sprite Editor.csprojResolveAssemblyReference.cache
+C:\Users\Rafael\documents\visual studio 2015\Projects\Fogo Sprite Editor\Fogo Sprite Editor\obj\Debug\App.g.cs
+C:\Users\Rafael\documents\visual studio 2015\Projects\Fogo Sprite Editor\Fogo Sprite Editor\obj\Debug\Fogo Sprite Editor_MarkupCompile.cache
+C:\Users\Rafael\documents\visual studio 2015\Projects\Fogo Sprite Editor\Fogo Sprite Editor\obj\Debug\Fogo Sprite Editor_MarkupCompile.lref
+C:\Users\Rafael\documents\visual studio 2015\Projects\Fogo Sprite Editor\Fogo Sprite Editor\obj\Debug\App.baml
+C:\Users\Rafael\documents\visual studio 2015\Projects\Fogo Sprite Editor\Fogo Sprite Editor\obj\Debug\Fogo Sprite Editor.g.resources
+C:\Users\Rafael\documents\visual studio 2015\Projects\Fogo Sprite Editor\Fogo Sprite Editor\obj\Debug\Fogo_Sprite_Editor.Properties.Resources.resources
+C:\Users\Rafael\documents\visual studio 2015\Projects\Fogo Sprite Editor\Fogo Sprite Editor\obj\Debug\Fogo Sprite Editor.csproj.GenerateResource.Cache
+C:\Users\Rafael\documents\visual studio 2015\Projects\Fogo Sprite Editor\Fogo Sprite Editor\obj\Debug\Fogo Sprite Editor.exe
+C:\Users\Rafael\documents\visual studio 2015\Projects\Fogo Sprite Editor\Fogo Sprite Editor\obj\Debug\Fogo Sprite Editor.pdb
+C:\Users\Rafael\documents\visual studio 2015\Projects\Fogo Sprite Editor\Fogo Sprite Editor\obj\Debug\Modules\Home\Views\HomeView.baml
+C:\Users\Rafael\documents\visual studio 2015\Projects\Fogo Sprite Editor\Fogo Sprite Editor\obj\Debug\Modules\Home\Views\HomeView.g.cs
+C:\Users\Rafael\documents\visual studio 2015\Projects\Fogo Sprite Editor\Fogo Sprite Editor\bin\Debug\Gemini.Modules.PropertyGrid.dll
+C:\Users\Rafael\documents\visual studio 2015\Projects\Fogo Sprite Editor\Fogo Sprite Editor\obj\Debug\Modules\SpriteViewer\Views\SpriteView.baml
+C:\Users\Rafael\documents\visual studio 2015\Projects\Fogo Sprite Editor\Fogo Sprite Editor\obj\Debug\Modules\SpriteViewer\Views\SpriteView.g.cs
