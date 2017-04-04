@@ -1,4 +1,5 @@
 ﻿using Caliburn.Micro;
+using Fogo_Sprite_Editor.EditorProject;
 using Fogo_Sprite_Editor.Modules.Home.ViewModels;
 using Gemini.Framework;
 using Gemini.Modules.PropertyGrid;
@@ -22,6 +23,7 @@ namespace Fogo_Sprite_Editor.Modules.Home
         {
             IoC.Get<IPropertyGrid>().SelectedObject = IoC.Get<HomeViewModel>();
             Shell.OpenDocument(IoC.Get<HomeViewModel>());
+            IoC.Get<ProjectManager>().CreateNewGameObject();
         }
     }
 }

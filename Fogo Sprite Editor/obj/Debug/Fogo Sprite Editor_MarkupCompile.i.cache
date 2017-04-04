@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 C:\Users\Rafael\Documents\Visual Studio 2015\Projects\Fogo Sprite Editor\Fogo Sprite Editor\App.xaml
-21080236279
+3690593569
 
-211739284056
-781123057871
-Modules\Home\Views\HomeView.xaml;Modules\SpriteViewer\Views\SpriteView.xaml;
+33299844460
+821506788291
+Modules\Home\Views\HomeView.xaml;Modules\ObjectsList\Views\ObjectListView.xaml;Modules\ObjectViewer\Views\ObjectView.xaml;
 
 False
 

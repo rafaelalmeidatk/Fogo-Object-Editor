@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\Rafael\documents\visual studio 2015\Projects\Fogo Sprite Editor\Fogo Sprite Editor\obj\Debug\
+C:\Users\Rafael\Documents\Visual Studio 2015\Projects\Fogo Sprite Editor\Fogo Sprite Editor\obj\Debug\
 Fogo_Sprite_Editor
 none
 false
 DEBUG;TRACE
-C:\Users\Rafael\documents\visual studio 2015\Projects\Fogo Sprite Editor\Fogo Sprite Editor\App.xaml
-21080236279
+C:\Users\Rafael\Documents\Visual Studio 2015\Projects\Fogo Sprite Editor\Fogo Sprite Editor\App.xaml
+3690593569
 
-17-1169593679
-781007262242
-Modules\Home\Views\HomeView.xaml;Modules\SpriteViewer\Views\SpriteView.xaml;
+291685934021
+821506788291
+Modules\Home\Views\HomeView.xaml;Modules\ObjectsList\Views\ObjectListView.xaml;Modules\ObjectViewer\Views\ObjectView.xaml;
 
 False
 

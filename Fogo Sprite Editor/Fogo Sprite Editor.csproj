@@ -47,12 +47,28 @@
       <HintPath>..\packages\GeminiWpf.0.6.2\lib\net45\Gemini.dll</HintPath>
       <Private>True</Private>
     </Reference>
+    <Reference Include="Gemini.Modules.Inspector, Version=0.6.2.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Gemini.Modules.Inspector.0.6.2\lib\net45\Gemini.Modules.Inspector.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Gemini.Modules.MonoGame, Version=0.6.2.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Gemini.Modules.MonoGame.0.6.2\lib\net45\Gemini.Modules.MonoGame.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Gemini.Modules.Output, Version=0.6.2.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Gemini.Modules.Output.0.6.2\lib\net45\Gemini.Modules.Output.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="Gemini.Modules.PropertyGrid, Version=0.6.2.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\Gemini.Modules.PropertyGrid.0.6.2\lib\net45\Gemini.Modules.PropertyGrid.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="MahApps.Metro, Version=1.0.0.0, Culture=neutral, PublicKeyToken=f4fb5a3c4d1e5b4f, processorArchitecture=MSIL">
       <HintPath>..\packages\MahApps.Metro.1.0.0.0\lib\net45\MahApps.Metro.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="MonoGame.Framework, Version=3.4.0.459, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\MonoGame.Framework.WindowsDX.3.4.0.459\lib\net40\MonoGame.Framework.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="System" />
@@ -114,21 +130,35 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="EditorProject\GameObject.cs" />
+    <Compile Include="EditorProject\IGameObject.cs" />
+    <Compile Include="EditorProject\ProjectData.cs" />
+    <Compile Include="EditorProject\ProjectManager.cs" />
+    <Compile Include="Extensions\SpriteBatchExtensions.cs" />
     <Compile Include="Modules\Home\Commmands\NewProjectCommandDefinition.cs" />
     <Compile Include="Modules\Home\Commmands\NewProjectCommandHandler.cs" />
     <Compile Include="Modules\Home\MenuDefinitions.cs" />
     <Compile Include="Modules\Home\Module.cs" />
     <Compile Include="Modules\Home\ViewModels\HomeViewModel.cs" />
+    <Compile Include="Modules\Home\ViewModels\ObjectsListInspectorViewModel.cs" />
     <Compile Include="Modules\Home\Views\HomeView.xaml.cs">
       <DependentUpon>HomeView.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Modules\SpriteViewer\Commands\NewObjectCommandDefinition.cs" />
-    <Compile Include="Modules\SpriteViewer\Commands\NewObjectCommandHandler.cs" />
-    <Compile Include="Modules\SpriteViewer\MenuDefinitions.cs" />
-    <Compile Include="Modules\SpriteViewer\Module.cs" />
-    <Compile Include="Modules\SpriteViewer\ViewModels\SpriteViewModel.cs" />
-    <Compile Include="Modules\SpriteViewer\Views\SpriteView.xaml.cs">
-      <DependentUpon>SpriteView.xaml</DependentUpon>
+    <Compile Include="Modules\ObjectsList\IObjectList.cs" />
+    <Compile Include="Modules\ObjectsList\Models\ObjectListItem.cs" />
+    <Compile Include="Modules\ObjectsList\ViewModels\ObjectListItemViewModel.cs" />
+    <Compile Include="Modules\ObjectsList\ViewModels\ObjectListViewModel.cs" />
+    <Compile Include="Modules\ObjectsList\Views\ObjectListView.xaml.cs">
+      <DependentUpon>ObjectListView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\ObjectViewer\Commands\NewObjectCommandDefinition.cs" />
+    <Compile Include="Modules\ObjectViewer\Commands\NewObjectCommandHandler.cs" />
+    <Compile Include="Modules\ObjectViewer\MenuDefinitions.cs" />
+    <Compile Include="Modules\ObjectViewer\Module.cs" />
+    <Compile Include="Modules\ObjectViewer\ToolBarDefinitions.cs" />
+    <Compile Include="Modules\ObjectViewer\ViewModels\ObjectViewModel.cs" />
+    <Compile Include="Modules\ObjectViewer\Views\ObjectView.xaml.cs">
+      <DependentUpon>ObjectView.xaml</DependentUpon>
     </Compile>
     <Compile Include="Modules\Startup\Module.cs" />
     <Compile Include="Properties\AssemblyInfo.cs">
@@ -158,17 +188,24 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Resource Include="Resources\Icons\NewObject.png" />
+  </ItemGroup>
   <ItemGroup>
     <Page Include="Modules\Home\Views\HomeView.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Modules\SpriteViewer\Views\SpriteView.xaml">
+    <Page Include="Modules\ObjectsList\Views\ObjectListView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Modules\ObjectViewer\Views\ObjectView.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

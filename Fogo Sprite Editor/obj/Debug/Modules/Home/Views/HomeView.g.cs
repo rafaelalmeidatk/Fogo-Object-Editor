@@ -11,6 +11,8 @@
 
 using Gemini;
 using Gemini.Framework.Controls;
+using Gemini.Modules.Inspector.Controls;
+using Gemini.Modules.MonoGame.Controls;
 using System;
 using System.Diagnostics;
 using System.Windows;
