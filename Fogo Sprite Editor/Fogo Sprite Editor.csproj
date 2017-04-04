@@ -132,9 +132,15 @@
   <ItemGroup>
     <Compile Include="EditorProject\GameObject.cs" />
     <Compile Include="EditorProject\IGameObject.cs" />
+    <Compile Include="EditorProject\ObjectFrame.cs" />
     <Compile Include="EditorProject\ProjectData.cs" />
     <Compile Include="EditorProject\ProjectManager.cs" />
     <Compile Include="Extensions\SpriteBatchExtensions.cs" />
+    <Compile Include="Modules\FramesList\IFrameList.cs" />
+    <Compile Include="Modules\FramesList\ViewModels\FrameListViewModel.cs" />
+    <Compile Include="Modules\FramesList\Views\FrameListView.xaml.cs">
+      <DependentUpon>FrameListView.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Modules\Home\Commmands\NewProjectCommandDefinition.cs" />
     <Compile Include="Modules\Home\Commmands\NewProjectCommandHandler.cs" />
     <Compile Include="Modules\Home\MenuDefinitions.cs" />
@@ -145,12 +151,12 @@
       <DependentUpon>HomeView.xaml</DependentUpon>
     </Compile>
     <Compile Include="Modules\ObjectsList\IObjectList.cs" />
-    <Compile Include="Modules\ObjectsList\Models\ObjectListItem.cs" />
-    <Compile Include="Modules\ObjectsList\ViewModels\ObjectListItemViewModel.cs" />
     <Compile Include="Modules\ObjectsList\ViewModels\ObjectListViewModel.cs" />
     <Compile Include="Modules\ObjectsList\Views\ObjectListView.xaml.cs">
       <DependentUpon>ObjectListView.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Modules\ObjectViewer\Commands\NewFrameCommandDefinition.cs" />
+    <Compile Include="Modules\ObjectViewer\Commands\NewFrameCommandHandler.cs" />
     <Compile Include="Modules\ObjectViewer\Commands\NewObjectCommandDefinition.cs" />
     <Compile Include="Modules\ObjectViewer\Commands\NewObjectCommandHandler.cs" />
     <Compile Include="Modules\ObjectViewer\MenuDefinitions.cs" />
@@ -192,6 +198,10 @@
     <Resource Include="Resources\Icons\NewObject.png" />
   </ItemGroup>
   <ItemGroup>
+    <Page Include="Modules\FramesList\Views\FrameListView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Modules\Home\Views\HomeView.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -205,7 +215,12 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Resource Include="Resources\Icons\NewFrame.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Modules\FrameProperties\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

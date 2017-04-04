@@ -56,3 +56,5 @@ C:\Users\Rafael\Documents\Visual Studio 2015\Projects\Fogo Sprite Editor\Fogo Sp
 C:\Users\Rafael\Documents\Visual Studio 2015\Projects\Fogo Sprite Editor\Fogo Sprite Editor\bin\Debug\MonoGame.Framework.xml
 C:\Users\Rafael\Documents\Visual Studio 2015\Projects\Fogo Sprite Editor\Fogo Sprite Editor\obj\Debug\Modules\ObjectsList\Views\ObjectListView.g.cs
 C:\Users\Rafael\Documents\Visual Studio 2015\Projects\Fogo Sprite Editor\Fogo Sprite Editor\obj\Debug\Modules\ObjectsList\Views\ObjectListView.baml
+C:\Users\Rafael\Documents\Visual Studio 2015\Projects\Fogo Sprite Editor\Fogo Sprite Editor\obj\Debug\Modules\FramesList\Views\FrameListView.baml
+C:\Users\Rafael\Documents\Visual Studio 2015\Projects\Fogo Sprite Editor\Fogo Sprite Editor\obj\Debug\Modules\FramesList\Views\FrameListView.g.cs

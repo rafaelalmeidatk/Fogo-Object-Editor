@@ -13,5 +13,9 @@ namespace Fogo_Sprite_Editor.Modules.ObjectViewer
         [Export]
         public static ToolBarItemDefinition NewObjectToolBarItem = new CommandToolBarItemDefinition<NewObjectCommandDefinition>(
             ObjectViewToolBarGroup, 0);
+
+        [Export]
+        public static ToolBarItemDefinition NewFrameToolBarItem = new CommandToolBarItemDefinition<NewFrameCommandDefinition>(
+            ObjectViewToolBarGroup, 1);
     }
 }

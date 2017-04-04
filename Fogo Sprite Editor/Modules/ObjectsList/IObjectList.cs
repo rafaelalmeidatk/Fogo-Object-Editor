@@ -1,5 +1,4 @@
 ﻿using Fogo_Sprite_Editor.EditorProject;
-using Fogo_Sprite_Editor.Modules.ObjectsList.Models;
 using Gemini.Framework;
 
 namespace Fogo_Sprite_Editor.Modules.ObjectsList

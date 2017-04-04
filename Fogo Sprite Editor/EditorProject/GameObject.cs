@@ -1,12 +1,12 @@
-﻿using Fogo_Sprite_Editor.Modules.ObjectsList.Models;
-using Fogo_Sprite_Editor.Modules.ObjectViewer.ViewModels;
+﻿using Fogo_Sprite_Editor.Modules.ObjectViewer.ViewModels;
 using Gemini.Framework.Services;
 using System.ComponentModel;
 using System.Windows.Media.Imaging;
+using System.Collections.Generic;
 
 namespace Fogo_Sprite_Editor.EditorProject
 {
-    public class GameObject : ObjectListItem, IGameObject, INotifyPropertyChanged
+    public class GameObject : IGameObject, INotifyPropertyChanged
     {
         public event PropertyChangedEventHandler PropertyChanged;
 
@@ -20,21 +20,22 @@ namespace Fogo_Sprite_Editor.EditorProject
                 NotifyPropertyChanged("Name");
             }
         }
+
         public BitmapSource Spritesheet { get; set; }
         public bool Selected { get; set; }
 
+        private List<ObjectFrame> _frames;
+        public List<ObjectFrame> Frames => _frames;
+
         public GameObject()
         {
-            Name = "[New Object]";
+            _name = "[New Object]";
+            _frames = new List<ObjectFrame>();
         }
-
 
         private void NotifyPropertyChanged(string propertyName)
         {
-            if (PropertyChanged != null)
-            {
-                PropertyChanged(this, new PropertyChangedEventArgs(propertyName));
-            }
+            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
         }
 
         public void Activate(IShell shell)
@@ -58,6 +59,14 @@ namespace Fogo_Sprite_Editor.EditorProject
                 document.SetGameObject(this);
                 shell.OpenDocument(document);
             }
+        }
+
+        public void CreateFrame()
+        {
+            var frame = new ObjectFrame();
+            frame.Name = "Test Name";
+            _frames.Add(frame);
+            NotifyPropertyChanged("Frames");
         }
     }
 }

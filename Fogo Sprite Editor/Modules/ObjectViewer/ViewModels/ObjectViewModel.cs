@@ -14,8 +14,8 @@ namespace Fogo_Sprite_Editor.Modules.ObjectViewer.ViewModels
     [Export(typeof(ObjectViewModel))]
     public class ObjectViewModel : Document
     {
-        private IGameObject _gameObject;
-        public IGameObject GameObject => _gameObject;
+        private GameObject _gameObject;
+        public GameObject GameObject => _gameObject;
 
         private string _name;
         [DisplayName("Name")]
@@ -49,7 +49,7 @@ namespace Fogo_Sprite_Editor.Modules.ObjectViewer.ViewModels
             DisplayName = "[New Object]";
         }
 
-        public void SetGameObject(IGameObject gameObject)
+        public void SetGameObject(GameObject gameObject)
         {
             _gameObject = gameObject;
             DisplayName = _gameObject.Name;

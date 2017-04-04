@@ -6,7 +6,7 @@ using System.Windows.Input;
 namespace Fogo_Sprite_Editor.Modules.ObjectViewer.Commands
 {
     [CommandDefinition]
-    class NewObjectCommandDefinition : CommandDefinition
+    public class NewObjectCommandDefinition : CommandDefinition
     {
         public const string CommandName = "NewObject";
 

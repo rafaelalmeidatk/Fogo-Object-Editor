@@ -1,4 +1,5 @@
 ﻿using Caliburn.Micro;
+using Fogo_Sprite_Editor.Modules.FramesList;
 using Fogo_Sprite_Editor.Modules.Home.ViewModels;
 using Fogo_Sprite_Editor.Modules.ObjectsList;
 using Fogo_Sprite_Editor.Modules.ObjectViewer.ViewModels;
@@ -44,6 +45,8 @@ namespace Fogo_Sprite_Editor.Modules.ObjectViewer
                 
                 Shell.ShowTool(_objSettings);
                 Shell.ShowTool(IoC.Get<IObjectList>());
+                Shell.ShowTool(IoC.Get<IFrameList>());
+                IoC.Get<IFrameList>().SetGameObject(document.GameObject);
             }
             else
             {
